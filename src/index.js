@@ -2,7 +2,6 @@ import express from 'express';
 
 const app = express();
 app.get('/', (req, res) => {
-    console.log('............................................');
   let a = 0;
   let b = 0;
   if (req.query.a) {
